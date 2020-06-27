@@ -33,9 +33,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Certificate", "Certificate"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pfr-center-global", "pfr-center-global", "{8B7F9B2C-FBB0-4C44-8E5E-CE0969F4D6A7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{71C57127-7B3C-4A3C-98A8-513B3999F021}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "o2-bionics-global", "o2-bionics-global", "{71C57127-7B3C-4A3C-98A8-513B3999F021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O2Platform.Certificate.API", "src\Services\Certificate\O2Platform.Certificate.API\O2Platform.Certificate.API.csproj", "{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -54,6 +66,7 @@ Global
 		{FE9E86C3-C1FA-46C0-857A-E52C0499E03D} = {29E13B01-6CD5-4FF0-8093-0061031E5D41}
 		{8B7F9B2C-FBB0-4C44-8E5E-CE0969F4D6A7} = {FF58367D-CF5D-4455-BBA2-123D4A2672C8}
 		{71C57127-7B3C-4A3C-98A8-513B3999F021} = {FF58367D-CF5D-4455-BBA2-123D4A2672C8}
+		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68} = {FE9E86C3-C1FA-46C0-857A-E52C0499E03D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A9B668F-DFE4-48E5-8AD0-D7DE7F89EAA4}
