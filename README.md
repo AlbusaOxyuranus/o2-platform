@@ -1,1 +1,1 @@
-# o2-platform
+# O2 Platform
