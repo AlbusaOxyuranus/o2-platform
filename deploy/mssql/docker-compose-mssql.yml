@@ -3,7 +3,7 @@ version: '2'
 
 services:
   mssql-dt:
-    build: mssql/ .
+    build: . .
     container_name: mssql-dt # development or testing
     hostname: mssql-dt    
     ports:
