@@ -35,7 +35,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pfr-center-global", "pfr-ce
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "o2-bionics-global", "o2-bionics-global", "{71C57127-7B3C-4A3C-98A8-513B3999F021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O2Platform.Certificate.API", "src\Services\Certificate\O2Platform.Certificate.API\O2Platform.Certificate.API.csproj", "{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "O2Platform.Certificate.API", "src\Services\Certificate\O2Platform.Certificate.API\O2Platform.Certificate.API.csproj", "{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0FDE6472-6B7A-44D7-ADCA-A790ACBC0CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O2Platform.Certificate.API.FunctionalTests", "src\Services\Certificate\O2Platform.Certificate.API.FunctionalTests\O2Platform.Certificate.API.FunctionalTests.csproj", "{8D3FE442-5E01-400E-8DDA-1EA2BDF8413B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O2Platform.Certificate.API.UnitTests", "src\Services\Certificate\O2Platform.Certificate.API.UnitTests\O2Platform.Certificate.API.UnitTests.csproj", "{A1953E46-901C-45A0-BE14-6B94C25A31CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,14 @@ Global
 		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3FE442-5E01-400E-8DDA-1EA2BDF8413B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3FE442-5E01-400E-8DDA-1EA2BDF8413B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3FE442-5E01-400E-8DDA-1EA2BDF8413B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3FE442-5E01-400E-8DDA-1EA2BDF8413B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1953E46-901C-45A0-BE14-6B94C25A31CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1953E46-901C-45A0-BE14-6B94C25A31CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1953E46-901C-45A0-BE14-6B94C25A31CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1953E46-901C-45A0-BE14-6B94C25A31CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +81,9 @@ Global
 		{8B7F9B2C-FBB0-4C44-8E5E-CE0969F4D6A7} = {FF58367D-CF5D-4455-BBA2-123D4A2672C8}
 		{71C57127-7B3C-4A3C-98A8-513B3999F021} = {FF58367D-CF5D-4455-BBA2-123D4A2672C8}
 		{6A84671E-EFBC-4B62-ABD4-A4E8B835CC68} = {FE9E86C3-C1FA-46C0-857A-E52C0499E03D}
+		{0FDE6472-6B7A-44D7-ADCA-A790ACBC0CFD} = {FE9E86C3-C1FA-46C0-857A-E52C0499E03D}
+		{8D3FE442-5E01-400E-8DDA-1EA2BDF8413B} = {0FDE6472-6B7A-44D7-ADCA-A790ACBC0CFD}
+		{A1953E46-901C-45A0-BE14-6B94C25A31CA} = {0FDE6472-6B7A-44D7-ADCA-A790ACBC0CFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A9B668F-DFE4-48E5-8AD0-D7DE7F89EAA4}
