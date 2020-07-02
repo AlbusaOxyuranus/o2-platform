@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace O2Platform.Certificate.API.UnitTests
