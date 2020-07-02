@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["src/Services/Certificate/O2Platform.Certificate.API/O2Platform.Certificate.API.csproj", "src/Services/Certificate/O2Platform.Certificate.API/"]
+COPY "src/Services/Certificate/O2Platform.Certificate.API/O2Platform.Certificate.API.csproj"  "src/Services/Certificate/O2Platform.Certificate.API/O2Platform.Certificate.API.csproj"
 RUN dotnet restore "src/Services/Certificate/O2Platform.Certificate.API/O2Platform.Certificate.API.csproj"
 COPY . .
 WORKDIR "/src/src/Services/Certificate/O2Platform.Certificate.API"
